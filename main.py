@@ -22,6 +22,7 @@ def inputPlayerLetter():
 def whoGoesFirst():
     if random.randint(0,1) == 0:
         return 'computer'
+    else:
         return 'player'
 
 def makeMove(board, letter, move):
